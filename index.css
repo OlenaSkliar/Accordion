@@ -1,13 +1,8 @@
 :root {
     --dark-blue: #2469B0;
-    --light-blue: #74B9DF;
-    --gray: #9FB1C6;
     --light-gray: #F7F7F7;
     --medium-gray: #DAE1E9;
     --black: #343435;
-    --white: #ffffff;
-    --yellow: #EFD910;
-    --green: #39CE90;
     --general-font: 'Oswald', sans-serif;
     --main-font: 'Source Sans 3', sans-serif;
 }
@@ -25,9 +20,6 @@ body{
 }
 .bg-light-gray{
     background-color: var(--light-gray)
-}
-.mr-30{
-    margin-right: 30px
 }
 .d-flex-space-between{
     display: flex;
