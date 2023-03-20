@@ -45,7 +45,7 @@ h4{
 
 .accordion{
     width: 50%;
-    margin: auto
+    margin: 100px auto 0
 }
 .accordion__heading{
     padding: 25px 20px;
