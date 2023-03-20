@@ -1,0 +1,24 @@
+.accordion__heading{
+    padding: 25px 20px;
+    cursor: pointer
+}
+.accordion__item .accordion__heading:not(.accordion__item:last-child .accordion__heading), .accordion__item .accordion__body:not(.accordion__item:last-child .accordion__body), .accordion__item:last-child.active .accordion__heading{
+    border-bottom: 1px solid var(--medium-gray)
+}
+.accordion__body{
+    padding: 0 63px 0 20px;
+    opacity: 0;
+    height: 0;
+    transition: 0.1s;
+    pointer-events: none
+}
+.accordion__item.active .accordion__body{
+    padding: 15px 63px 15px 20px;
+    opacity: 1;
+    pointer-events: auto
+}
+.accordion .show, .accordion .hide{
+    position: absolute;
+    top: -13px;
+    right: 0
+}
