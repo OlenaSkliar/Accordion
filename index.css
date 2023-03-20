@@ -1,3 +1,56 @@
+:root {
+    --dark-blue: #2469B0;
+    --light-blue: #74B9DF;
+    --gray: #9FB1C6;
+    --light-gray: #F7F7F7;
+    --medium-gray: #DAE1E9;
+    --black: #343435;
+    --white: #ffffff;
+    --yellow: #EFD910;
+    --green: #39CE90;
+    --general-font: 'Oswald', sans-serif;
+    --main-font: 'Source Sans 3', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+body{
+    font-family: var(--main-font);
+    color: var(--black);
+    line-height: 1;
+    font-size: 16px;
+}
+.bg-light-gray{
+    background-color: var(--light-gray)
+}
+.mr-30{
+    margin-right: 30px
+}
+.d-flex-space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+h4{
+    font-family: var(--general-font);
+    line-height: 1;
+    color: var(--dark-blue)
+}
+.p-r{
+    position: relative
+}
+.opacity{
+    opacity: 0;
+    transition: 0.3s
+}
+.small-main-text{
+    font-size: 0.875rem
+}
+
+
 .accordion__heading{
     padding: 25px 20px;
     cursor: pointer
