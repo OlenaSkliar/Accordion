@@ -71,3 +71,12 @@ h4{
     top: -13px;
     right: 0
 }
+.accordion__item .hide{
+    opacity: 0
+}
+.accordion__item.active .show{
+    opacity: 0
+}
+.accordion__item.active .hide{
+    opacity: 1
+}
