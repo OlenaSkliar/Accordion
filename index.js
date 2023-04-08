@@ -5,7 +5,7 @@ let acc = document.getElementsByClassName("accordion__heading");
             this.closest('.accordion__item').classList.toggle("active");
             let accBody = this.closest('.accordion__item').querySelector('.accordion__body');
             if (this.closest('.accordion__item').classList.contains("active")) {
-                accBody.style.height = accBody.querySelector('.accordion__info').offsetHeight + 10 + "px"
+                accBody.style.height = accBody.querySelector('.accordion__info').offsetHeight + "px"
             } else {
                 accBody.style.height = '0'
             }
