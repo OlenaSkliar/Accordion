@@ -30,7 +30,8 @@ h4{
     align-items: center
 }
 .accordion_info{
-    font-size: 14px
+    font-size: 14px;
+    margin: 0
 }
 .accordion__item .accordion__heading:not(.accordion__item:last-child .accordion__heading), .accordion__item .accordion__body:not(.accordion__item:last-child .accordion__body), .accordion__item:last-child.active .accordion__heading{
     border-bottom: 1px solid #DAE1E9
