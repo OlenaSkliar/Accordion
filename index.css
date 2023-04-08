@@ -1,35 +1,13 @@
-:root {
-    --dark-blue: #2469B0;
-    --light-gray: #F7F7F7;
-    --medium-gray: #DAE1E9;
-    --black: #343435;
-    --general-font: 'Oswald', sans-serif;
-    --main-font: 'Source Sans 3', sans-serif;
-}
-
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0
-}
 body{
-    font-family: var(--main-font);
-    color: var(--black);
+    font-family: 'Source Sans 3', sans-serif);
+    color: #343435;
     line-height: 1;
     font-size: 16px;
 }
-.bg-light-gray{
-    background-color: var(--light-gray)
-}
-.d-flex-space-between{
-    display: flex;
-    justify-content: space-between;
-    align-items: center
-}
 h4{
-    font-family: var(--general-font);
+    font-family: 'Oswald', sans-serif;
     line-height: 1;
-    color: var(--dark-blue)
+    color: #2469B0
 }
 .p-r{
     position: relative
@@ -38,21 +16,24 @@ h4{
     opacity: 0;
     transition: 0.3s
 }
-.small-main-text{
-    font-size: 0.875rem
-}
-
 
 .accordion{
     width: 50%;
-    margin: 100px auto 0
+    margin: 100px auto 0;
+    background-color: #F7F7F7
 }
 .accordion__heading{
     padding: 25px 20px;
-    cursor: pointer
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.accordion_info{
+    font-size: 14px
 }
 .accordion__item .accordion__heading:not(.accordion__item:last-child .accordion__heading), .accordion__item .accordion__body:not(.accordion__item:last-child .accordion__body), .accordion__item:last-child.active .accordion__heading{
-    border-bottom: 1px solid var(--medium-gray)
+    border-bottom: 1px solid #DAE1E9
 }
 .accordion__body{
     padding: 0 63px 0 20px;
