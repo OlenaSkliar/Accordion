@@ -63,3 +63,16 @@ h4{
 .accordion__item.active .hide{
     opacity: 1
 }
+@media all and (max-width: 768px){
+    .accordion{
+        width: 100%
+    }
+    .accordion__heading{
+        padding: 20px 15px
+    }
+    .accordion .show, .accordion .hide{
+        width: 20px;
+        top: -10px
+    }
+    
+}
